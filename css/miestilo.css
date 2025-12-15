@@ -37,6 +37,30 @@ img {
   color: #8e8e93;
 }
 
+.demo-card-header-pic .card-header {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .demo-card-header-pic .card-header {
+    height: 320px;
+  }
+}
+
+h1 {
+  color: #000;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 .padding_text{
 
   padding-top: 50px;
